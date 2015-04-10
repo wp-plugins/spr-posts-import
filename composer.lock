@@ -1,0 +1,63 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "1998743e0f2a5cd1274fe5a39f527ac0",
+    "packages": [
+        {
+            "name": "hakre/xmlreaderiterator",
+            "version": "0.1.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hakre/XMLReaderIterator.git",
+                "reference": "007f4b8a6755f1adf5b9f236d94ae8358435a3b5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/hakre/XMLReaderIterator/zipball/007f4b8a6755f1adf5b9f236d94ae8358435a3b5",
+                "reference": "007f4b8a6755f1adf5b9f236d94ae8358435a3b5",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "autoload.php"
+                ]
+            },
+            "license": [
+                "AGPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "hakre",
+                    "homepage": "http://hakre.wordpress.com/"
+                }
+            ],
+            "description": "Iterators for PHP XMLReader for ease of parsing",
+            "homepage": "https://github.com/hakre/XMLReaderIterator",
+            "keywords": [
+                "Iterator",
+                "XML",
+                "XMLReader"
+            ],
+            "support": {
+                "source": "https://github.com/hakre/XMLReaderIterator/tree/v0.1.7",
+                "issues": "https://github.com/hakre/XMLReaderIterator/issues"
+            },
+            "time": "2014-08-31 15:57:48"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

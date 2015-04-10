@@ -1,0 +1,20 @@
+{
+    "require": {
+        "hakre/xmlreaderiterator": "0.1.*"
+    },
+    
+        
+    "repositories": [
+		{
+			"type": "vcs",
+			"url": "https://github.com/hakre/XMLReaderIterator"
+		}
+	],
+    
+     "autoload": {
+		"classmap": [
+			"vendor/"
+		]
+    }
+
+}

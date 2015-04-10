@@ -1,0 +1,76 @@
+/* CSS SPR-IMPORT-POSTS */
+
+/* General */
+.plugins_page_spr-posts-import #wpcontent {background: url('../images/bg_page.jpg') top right repeat-y;}
+#spr-import-posts {margin-right: 25px; }
+#spr-import-posts .clear {clear: both}
+#spr-import-posts .leftcol {float: left; width: 48%; margin-bottom: 40px;}
+#spr-import-posts .rightcol {float: right; width: 48%; margin-bottom: 40px;}
+#spr-import-posts hr {margin: 1.5rem auto;}
+
+
+
+/* Header */
+#spr-import-posts header {margin-top: 35px; margin-bottom: 20px; position: relative; overflow: hidden;}
+#spr-import-posts header .icon {float: left; width: 102px; height: 106px; background: url('../images/sprite.png') top left no-repeat;}
+#spr-import-posts header h1 {float: left; width: 285px; height: 65px;background: url('../images/sprite.png') 0 -110px no-repeat; text-indent: -9999em; margin-left: 10px; margin-top: 25px;}
+#spr-import-posts header hr {clear: both; border: 0px; background: url('../images/hr_slashed.png') repeat-x; height: 14px; position: absolute; bottom: 0px; left: 105px; width: 90%; margin: 0 ; }
+
+
+/* Form and Categories */
+#spr-import-posts fieldset {padding: 10px 20px; display: inline-block; border: 1px solid #ccc;}
+#spr-import-posts label {min-width: 10rem; display: inline-block;}
+#spr-import-posts textarea {width: 100%}
+#spr-import-posts .full-import label {height: 2rem; float: left;}
+#spr-import-posts .full-import div {display: inline-block;height: 2rem; float: left;}
+#spr-import-posts .full-import strong em {font-weight: normal;}
+#spr-import-posts .leftcol input[type=submit] {margin: 10px auto; width: 100%; text-align:center; display: block;}
+#spr-import-posts p.small {font-size: .8em; padding-top: 1em;}
+#spr-import-posts .single-cat {padding: 5px 10px; background: #d7d7d7; border: 1px solid #a1a1a1; border-radius: 8px; float: left; margin: 0 5px 5px 0; color: #c61212; }
+
+
+
+/* All Done */
+#spr-import-posts #all-done {margin-top: 40px; display: none;}
+#spr-import-posts #all-done .message { font-family: 'Roboto', sans-serif; color: #333;}
+#spr-import-posts #beg-a-thon {position: relative; min-height: 210px; padding: 20px 15px 0 250px; margin: 50px 20px; background: url('../images/bg_lined.png');}
+#spr-import-posts #beg-a-thon .monster {width: 229px; height: 248px; background: url('../images/sprite.png') 0 -182px no-repeat; position: absolute; left: -20px; bottom: 0;}
+#spr-import-posts #beg-a-thon h4 {margin-top: 0; margin-bottom: .2em;}
+#spr-import-posts #beg-a-thon h4 em {background: #f1f1f1; padding: 5px 10px; display: inline-block; font-size: 1.1rem; }
+#spr-import-posts #beg-a-thon p {background: #f1f1f1; padding: 3px 6px; display: inline-block; margin: .2em 0; color: #333; font-size: .9rem; font-family: 'Roboto', sans-serif;}
+#spr-import-posts #beg-a-thon p.donate {background: transparent; font-family: Helvetica, Arial, sans-serif; margin-top: 1em;}
+#spr-import-posts #beg-a-thon p.donate a { font-weight: bold;}
+
+
+/* How To */
+#spr-import-posts .how-to {max-width: 60%; font-family: 'Roboto', sans-serif;}
+#spr-import-posts .how-to ol {padding: 0; margin: 25px 0 45px 0; list-style-type: none; counter-reset: ol-counter; border-bottom: 2px solid #dcd9d9; }
+#spr-import-posts .how-to ol > li:before { content: counter(ol-counter); counter-increment: ol-counter; border-top: 2px solid #c61212; font-family: 'Roboto', sans-serif; color: #989494; font-size: 1.0rem; padding: 9px; margin: 0 0 0 8px; position:absolute; top: -2px;}
+#spr-import-posts .how-to ol li {border-top: 2px solid #dcd9d9; padding: .7rem .7rem .7rem 0; font-size: .9rem; line-height: 1rem; margin: 0; position: relative;}
+#spr-import-posts .how-to ol li span {display: inline-block; padding-left: 65px;}
+
+
+
+
+/* General Notes */
+#spr-import-posts .general-notes h3 {width: 100%; text-align: center; background: url('../images/hr_slashed_3-high.png') repeat-x; height: 82px; margin-bottom: 40px;}
+#spr-import-posts .general-notes h3 span {background: #f1f1f1; display: inline-block; padding: 15px 25px; margin-top: 1rem; font-size: 1.8rem;}
+#spr-import-posts .general-notes p {font-family: 'Roboto', sans-serif; min-height: 6em; width: 44%; margin: 0; padding: 2rem 0; float: left; position: relative; font-size: .9rem; color: #333; line-height: 1rem;}
+#spr-import-posts .general-notes p.even {border-left: 1px solid #c4c4c4; padding: 1em 0 1em 4%;}
+#spr-import-posts .general-notes p.odd {padding: 1em 3%;}
+#spr-import-posts .general-notes p.even span.brder {position:absolute; bottom:0; left: -2rem; width: 4rem; border-top: 1px solid #c4c4c4; display: block;}
+#spr-import-posts .general-notes p.first {padding-top: 0;}
+#spr-import-posts .general-notes p.last.even {padding-bottom: 0;}
+#spr-import-posts .general-notes p.last.even span.brder {display: none;}
+#spr-import-posts .general-notes p.even span.brder em{display: block; margin: -.5em auto 0 auto; text-align:center; background: #f1f1f1; height: 1em; width: 1em; border-radius: 1em;}
+
+
+
+/* Typography */
+#spr-import-posts .num-posts {background: #c61212; padding: 5px 7px; color: white;}
+#spr-import-posts .stats {font-weight: bold;}
+
+#spr-import-posts h1, #spr-import-posts h2, #spr-import-posts h3, #spr-import-posts h4, #spr-import-posts h5 {font-family: 'Roboto', sans-serif; font-weight: 500;}
+#spr-import-posts h2 {font-size: 30px; color: #333;}
+#spr-import-posts h3 {font-size: 18px; color: #333; margin-top: 30px;}
+#spr-import-posts a {color: #c61212;}
